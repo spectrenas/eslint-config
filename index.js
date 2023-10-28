@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   plugins: ['@stylistic'],
   rules: {
     //eslint-recommended"
