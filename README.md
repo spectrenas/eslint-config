@@ -14,7 +14,7 @@ npm install @spectrekit/eslint-config -D
 
 ```sh
 
-npm add @spectrekit/eslint-config -D
+pnpm add @spectrekit/eslint-config -D
 
 ```
 
