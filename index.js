@@ -26,9 +26,9 @@ module.exports = {
 
     //禁止使用undefined初始化值
     'no-undef-init': 'error',
-    
+
     //未使用的变量
-    'no-unused-vars': ['warn', {argsIgnorePattern: '^_'}],
+    'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
 
     //换行
     '@stylistic/linebreak-style': ['error', 'unix'],
@@ -55,16 +55,16 @@ module.exports = {
     '@stylistic/lines-between-class-members': ['error', 'always'],
 
     //注释规范
-    '@stylistic/lines-around-comment': ['error', {beforeBlockComment: true}],
+    '@stylistic/lines-around-comment': ['error', { beforeBlockComment: true }],
 
     //允许最大的空行
-    '@stylistic/no-multiple-empty-lines': ['error', {max: 1}],
+    '@stylistic/no-multiple-empty-lines': ['error', { max: 1 }],
 
     //不允许多个空格
     '@stylistic/no-multi-spaces': 'error',
 
     //缩进
-    '@stylistic/indent': ['error', 2, {SwitchCase: 1}],
+    '@stylistic/indent': ['error', 2, { SwitchCase: 1 }],
 
     //块内部间距
     '@stylistic/block-spacing': ['error', 'always'],
@@ -76,16 +76,16 @@ module.exports = {
     '@stylistic/arrow-spacing': 'error',
 
     //逗号间隔
-    '@stylistic/comma-spacing': ['error', {before: false, after: true}],
+    '@stylistic/comma-spacing': ['error', { before: false, after: true }],
 
     //对象key间隔
-    '@stylistic/key-spacing': ['error', {afterColon: true}],
+    '@stylistic/key-spacing': ['error', { afterColon: true }],
 
     //对象括号间隔
-    'object-curly-spacing': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
 
     //关键字间隔
-    '@stylistic/keyword-spacing': ['error', {after: true}],
+    '@stylistic/keyword-spacing': ['error', { after: true }],
 
     //中缀操作符的间距
     '@stylistic/space-infix-ops': 'error',
@@ -123,7 +123,7 @@ module.exports = {
         '@typescript-eslint/no-this-alias': 'error',
         '@typescript-eslint/no-unnecessary-type-constraint': 'error',
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': ['warn', {argsIgnorePattern: '^_'}],
+        '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-namespace-keyword': 'error',
@@ -135,7 +135,7 @@ module.exports = {
           {
             before: false,
             after: true,
-            overrides: {arrow: {before: true, after: true}}
+            overrides: { arrow: { before: true, after: true } }
           }
         ],
 
@@ -160,7 +160,7 @@ module.exports = {
       plugins: ['@stylistic/jsx'],
       rules: {
         //表达式间隔
-        '@stylistic/jsx/jsx-curly-spacing': ['error', {when: 'never'}],
+        '@stylistic/jsx/jsx-curly-spacing': ['error', { when: 'never' }],
 
         //等于号间隔
         '@stylistic/jsx/jsx-equals-spacing': ['error', 'never'],
@@ -168,7 +168,7 @@ module.exports = {
         //标签间隔
         '@stylistic/jsx/jsx-tag-spacing': [
           'error',
-          {afterOpening: 'never', beforeClosing: 'never'}
+          { afterOpening: 'never', beforeClosing: 'never' }
         ],
       }
     }
