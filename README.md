@@ -24,6 +24,6 @@ pnpm add @spectrekit/eslint-config -D
 
 ```json
 {
-  "extends": ["@spectre-ui/eslint-config"]
+  "extends": ["@spectrekit/eslint-config"]
 }
 ```
