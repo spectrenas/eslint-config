@@ -1,8 +1,8 @@
 # @spectrekit/eslint-config
 
-Javascript, Typescript and JSX rules
+集合了 Javascript, Typescript and JSX 的代码规则
 
-## Install
+## 安装
 
 ```sh
 
@@ -10,10 +10,20 @@ npm install @spectrekit/eslint-config -D
 
 ```
 
-pnpm
+使用 pnpm 安装
 
 ```sh
 
 npm add @spectrekit/eslint-config -D
 
+```
+
+## 使用
+
+在.eslintrc.json 添加以下代码
+
+```json
+{
+  "extends": ["@spectre-ui/eslint-config"]
+}
 ```
